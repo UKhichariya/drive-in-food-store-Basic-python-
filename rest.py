@@ -26,6 +26,7 @@ while user == "Y" or user == "y":
     else:
         print("Sorry!, we don't have",a)
         user = input("Do you want to continue(Y/N):")
+print("-"*30)
 print("Here's your bill: ")
 print("-"*30)
 for y in bill.keys():
